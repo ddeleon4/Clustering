@@ -1,0 +1,36 @@
+writor: Daniel De Leon
+	dad09f@my.fsu.edu
+	assignment 3 (program 1)
+	COP 4531 Fall 2014
+	10/17/14
+
+List of files included in the email:
+	main.cpp
+	makefile
+	README
+	Report.txt
+
+The code is in C++. A make file has been provided, so to compile just run:
+
+	make
+
+This shoudl be done within the directory where the make file and main.cpp
+are at. If you wish to output running time as well follow the instructions
+detailed in the first comment box of the main.cpp file, following '*NOTE:'
+and make sure to compile it on a linux machine due to it using a system call
+
+In order to run the program follow this usage guide bellow
+
+	usage: cluster datafile.txt #_of_clusters kmeans|average
+
+DEPENDENCIES:
+	- As it was not required, the program doesn't check for most usage
+		errors or errors in the datafile used.
+	- To avoid problems, make sure that the datafile can be printed to
+		the terminal properly using:
+	
+		cat datafile.txt
+
+	- Make sure that the files don't contain and duplicate points since,
+		even in theory, it would brake the functions when the number
+		of data	points equals the number of clusters requested.

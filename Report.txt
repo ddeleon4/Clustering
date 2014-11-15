@@ -1,0 +1,51 @@
+writor: Daniel De Leon
+	dad09f@my.fsu.edu
+	assignment 3 (program 1)
+	COP 4531 Fall 2014
+	10/17/14
+
+
+data1
+	average
+		[0 1 0 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1]
+		Run time is 33 milliseconds
+	kmeans
+		[0 1 0 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1]
+		Run time is 3 milliseconds
+	hamming distance: 0
+
+		
+
+data2
+	average
+		[0 1 0 0 0 0 1 1 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1]
+		Run time is 20 milliseconds
+	kmeans
+		[0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1]
+		Run time is 4 milliseconds
+        hamming distance: 92/529 = ~0.1739 
+
+
+
+
+data3
+	average
+		[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+		Run time is 53 milliseconds
+	kmeans
+		[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+		Run time is 15 milliseconds
+        hamming distance: 142/5041 = ~0.0282
+
+
+
+
+data4
+	average
+		[0 1 0 0 0 1 1 2 0 1 1 2 0 1 1 1 2 0 0 1 0 1 1 0 0 1 2 2 2 1 1 2 2 1 1 0 0 1 0 1 0 1 1 2 2 1 1 1 2]
+		Run time is 28 milliseconds
+	kmeans
+		[1 1 1 0 0 1 1 1 0 2 2 1 0 2 2 2 1 1 1 1 0 1 1 1 0 2 1 1 0 2 2 0 0 1 2 1 0 1 1 1 0 2 2 0 1 2 2 2 2]
+		Run time is 27 milliseconds
+        hamming distance: ~0.6122
+
